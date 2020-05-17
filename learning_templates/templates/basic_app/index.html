@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+
+{% extends "basic_app/base.html" %}
+  {% load my_extras %}
+  {% block body_block %}
+    <h1>welcome to index page</h1>
+    <!-- gai: this will make the string to uppercase. -->
+    <h2>{{ text|upper }}</h2>  
+    <h2>{{ number|add:"99" }}</h2>
+
+    <!-- gai: this will cut the hello from the hello world -->
+    <h2>{{ text|cut_string:"hello" }}</h2>
+    
+  {% endblock %}
