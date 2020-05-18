@@ -26,7 +26,7 @@ SECRET_KEY = 'p#337ychgu=h=us@!5#@(n9g1kojolreqq1g&3kxp)&g-h&24l'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['padgai.pythonanywhere.com']
 
 
 # Application definition
